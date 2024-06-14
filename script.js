@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to fetch server info
     const fetchServerInfo = async () => {
         try {
-            const response = await fetch('https://cod4-info.up.railway.app/157.175.22.227:29101');
+            const response = await fetch('https://cod4-info.up.railway.app/78.46.39.20:12935');
             const data = await response.json();
 
             if (response.ok) {
