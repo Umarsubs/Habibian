@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
                 } else {
-                    serverInfoHtml += `<div><span>Players:</span> No players online</div>`;
+                    serverInfoHtml += `<div><span>Players:</span><h4> No players online</h4></div>`;
                 }
 
                 serverInfoHtml += `</div>`;
