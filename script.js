@@ -30,13 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     serverInfoHtml += `</table>`;
                     serverInfoHtml += `</div>`;
-                    serverInfoHtml += `<a class="join-button" href="cod4://78.46.39.20:12935"><button>Join Now</button></a>`;
 
 
                 } else {
                     serverInfoHtml += `<div><span>Players:</span><h4> No players online</h4></div>`;
                 }
 
+                serverInfoHtml += `<a class="join-button" href="cod4://78.46.39.20:12935"><button>Join Now</button></a>`;
                 serverInfoHtml += `</div>`;
 
                 // Update HTML content
