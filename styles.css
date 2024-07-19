@@ -48,6 +48,11 @@ body {
     text-align: center;
 }
 
+.main, .server-details
+{
+    min-height: 100%;
+}
+
 .server-details {
     background-color: var(--content-background-color);
     border-radius: 8px;
