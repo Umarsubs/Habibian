@@ -48,7 +48,7 @@ body {
     text-align: center;
 }
 
-.main, .server-info, .server-details
+.main, #server-info, .server-details
 {
     min-height: calc(100% - 60px);
 }
