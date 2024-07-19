@@ -46,6 +46,7 @@ body {
 .main {
     padding: 0px;
     text-align: center;
+    min-height: 100%;
 }
 
 .main, #server-info, .server-details
