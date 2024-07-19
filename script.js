@@ -30,8 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     serverInfoHtml += `</table>`;
                     serverInfoHtml += `</div>`;
-
-
                 } else {
                     serverInfoHtml += `<div><span>Players:</span><h4> No players online</h4></div>`;
                 }
@@ -46,13 +44,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         } catch (error) {
             console.error('Error fetching server info:', error);
-            serverInfoContainer.innerHTML = `<div class="error-message">Error fetching server info: ${error.message}</div>`;
+            serverInfoContainer.innerHTML = `<div class="error-message">Error in fetching Info</div>`;
         }
     };
 
     // Fetch server info or display an error message if the fetch fails
     fetchServerInfo().catch(error => {
         console.error('Error fetching server info:', error);
-        serverInfoContainer.innerHTML = `<div class="error-message">Failed to fetch server information. Please try again later.</div>`;
+        serverInfoContainer.innerHTML = `<div class="error-message">Error in fetching Info</div>`;
     });
 });
